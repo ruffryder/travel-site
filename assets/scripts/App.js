@@ -1,5 +1,7 @@
 import MobileMenu from "./modules/mobileMenu";
 import RevealOnScroll from "./modules/revealOnScroll";
+import Modal from "./modules/modal";
+
 import $ from "jquery";
 
 const mobileMenu = new MobileMenu();

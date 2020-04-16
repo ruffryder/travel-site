@@ -3,4 +3,3 @@ class Modal {
 }
 
 export default Modal;
-s;

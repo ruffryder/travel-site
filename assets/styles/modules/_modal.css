@@ -8,6 +8,14 @@
   right: 0;
   opacity: 0;
   visibility: hidden;
+  transform: scale(1.2);
+  transition: all 0.2s ease-in;
+
+  &--is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
 
   &__inner {
     position: absolute;
